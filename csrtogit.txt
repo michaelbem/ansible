@@ -102,3 +102,18 @@ nano router.yml
 
 # Run your Ansible playbook (ensure your inventory is set up)
 ansible-playbook router.yml
+
+
+
+git branch
+git push origin master
+git checkout -b main
+git push origin main
+git push --set-upstream origin master
+git branch -r
+
+
+git remote remove origin
+git remote -v
+rm ~/.ssh/id_rsa.pub
+
