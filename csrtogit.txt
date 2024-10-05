@@ -118,3 +118,30 @@ git remote remove origin
 git remote -v
 rm ~/.ssh/id_rsa.pub
 
+
+**************************************************************************
+git branch
+git push origin master
+git checkout -b main
+git push origin main
+git push --set-upstream origin master
+git branch -r
+
+git config --global --unset user.name
+git config --global --unset user.email
+git remote remove origin
+git remote -v
+rm ~/.ssh/id_rsa.pub
+
+
+
+git config --global user.name "rivan16"
+git config --global user.email "vonherbertfaborada@gmail.com"
+git init
+git remote add origin git@github.com:USERNAMENIYO/ansible-backups.git
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+
+ssh -T git@github.com
