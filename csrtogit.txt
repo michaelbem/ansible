@@ -112,7 +112,8 @@ git push origin main
 git push --set-upstream origin master
 git branch -r
 
-
+git config --global --unset user.name
+git config --global --unset user.email
 git remote remove origin
 git remote -v
 rm ~/.ssh/id_rsa.pub
