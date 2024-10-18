@@ -7,7 +7,7 @@ cd /etc/ansible
 nano csr1000v_config.txt
 
 # Install Git
-sudo yum install git
+sudo yum install git -y
 
 # Set up Git user information
 git config --global user.name "Your Name"
