@@ -56,6 +56,10 @@ ssh -T git@github.com
 /etc/ansible/router.yml
 nano router.yml
 
+git branch
+git push origin main
+git branch -r
+
 
 ---
 - name: Backup Cisco Configuration to GitHub
@@ -103,20 +107,6 @@ nano router.yml
 # Run your Ansible playbook (ensure your inventory is set up)
 ansible-playbook router.yml
 
-
-
-git branch
-git push origin master
-git checkout -b main
-git push origin main
-git push --set-upstream origin master
-git branch -r
-
-git config --global --unset user.name
-git config --global --unset user.email
-git remote remove origin
-git remote -v
-rm ~/.ssh/id_rsa.pub
 
 
 **************************************************************************
