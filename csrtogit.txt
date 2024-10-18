@@ -10,8 +10,8 @@ nano csr1000v_config.txt
 sudo yum install git -y
 
 # Set up Git user information
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
+git config --global user.name Your Name
+git config --global user.email your_email@example.com
 
 # @GITHUB
 
@@ -33,7 +33,7 @@ git remote add origin git@github.com:username/repository.git
 #git remote add origin git@github.com:rivan16/ansible-backups.git
 
 # Generate SSH key (if you haven't already)
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-keygen -t rsa -b 4096 -C your_email@example.com
 
 # Start the SSH agent
 eval "$(ssh-agent -s)"
