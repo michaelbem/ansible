@@ -40,7 +40,7 @@ dnf install python3-pip
 pip3 install paramiko
 
 ***********************************************************************
-
+cd /etc/ansible
 nano ansible.cfg
 
 [paramiko_connection]
