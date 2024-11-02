@@ -13,6 +13,8 @@ dnf install nano -y
 dnf install python3-netaddr -y
 
 ansible-galaxy collection install cisco.ios
+
+pip install --upgrade ansible
 *******************************************************************
 @CENTOS - DON'T FORGET TO DO THIS
 
